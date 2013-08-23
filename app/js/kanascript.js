@@ -79,6 +79,34 @@ jQuery(document).ready(function($) {
 
 	}
 
+	$(function(){
+		$('#tiledMenu').data('size','big');
+	});
+
+	$(window).scroll(function()
+	{
+		if($(document).scrollTop() > 0)
+		{
+			if($('#tiledMenu').data('size') == 'big')
+			{		
+				$('#tiledMenu').data('size','small');
+				$('#tiledMenu').stop().animate({
+				height:'20px'
+				},300);
+			}
+		}
+		else
+		{
+			if($('#tiledMenu').data('size') == 'small')
+			{
+				$('#tiledMenu').data('size','big');
+				$('#tiledMenu').stop().animate({
+				height:'180px'
+				},300);
+			}
+		}
+	});
+
 	document.addEventListener("DOMContentLoaded", function(){
 		var iconsearch = document.getElementById('iconsearch');
 		iconsearch.addEventListener("click", clickSearchEvent, false);
