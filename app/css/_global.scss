@@ -9,7 +9,7 @@ body{
 
 	line-height: 1.3;
 	color: $textColor;
-	background-color: $backgroundColor;
+	background-color: #D8E1E5;
 	@include bodyType;
 }
 
@@ -61,17 +61,17 @@ section{
 }
 
 .todayHighlights{
-	background-color: $tableTitleBg;
-	color: $white;
-	padding-top: 1em;
-  	padding-bottom: 1em;
-  	padding-left: 1em;
-  	text-transform: uppercase;
-  	@include latoLight;
-  	text-align: left;
-  	letter-spacing: 0.1214em;  
-  	margin: 0 auto; 
-}
+	// background-color: $tableTitleBg;
+	// color: $white;
+	// padding-top: 1em;
+ //  	padding-bottom: 1em;
+ //  	padding-left: 1em;
+ //  	text-transform: uppercase;
+ //  	@include latoLight;
+ //  	text-align: left;
+ //  	letter-spacing: 0.1214em;  
+ //  	margin: 0 auto; 
+ }
 
 #mobileMenu.onmenu{
 		position: fixed;
@@ -608,20 +608,32 @@ footer #company{
 
 
 	.todayHighlights{
-		background-color: rgba(255, 255, 255,0.6);
-		color: #222;
-		text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+		// background-color: rgba(255, 255, 255,0.6);
+		// color: #222;
+		// text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 		
-	  	text-transform: uppercase;
-	  	@include latoReallyLight;
+	 //  	text-transform: uppercase;
+	 //  	@include latoReallyLight;
 	  	
-	  	text-align: left;
-	  	letter-spacing: 0.1214em;  
+	 //  	text-align: left;
+	 //  	letter-spacing: 0.1214em;  
 
-	  	position: absolute;
-	  	right:0%;
-	  	bottom: 0em;
-	  	font-size: 3rem;
+	 //  	position: absolute;
+	 //  	right:0%;
+	 //  	bottom: 0em;
+	 //  	font-size: 3rem;
+			 background-color: rgba(0, 0, 0, 0);
+		color: #FFF;
+		text-transform: uppercase;
+		font-family: 'Lato', sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		text-align: left;
+		letter-spacing: 0.1214em;
+		position: absolute;
+		top: 20%;
+		left: 20%;
+		font-size: 3em;
 
 	}
 
