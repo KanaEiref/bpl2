@@ -79,6 +79,20 @@ h3 {
 .icon-search {
   float: right; }
 
+.todayHighlights {
+  background-color: #344d60;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 0.1214em;
+  margin: 0 auto; }
+
 #mobileMenu.onmenu {
   position: fixed;
   width: 90%;

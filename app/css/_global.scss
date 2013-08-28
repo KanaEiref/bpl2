@@ -61,16 +61,16 @@ section{
 }
 
 .todayHighlights{
-	// background-color: $tableTitleBg;
-	// color: $white;
-	// padding-top: 1em;
- //  	padding-bottom: 1em;
- //  	padding-left: 1em;
- //  	text-transform: uppercase;
- //  	@include latoLight;
- //  	text-align: left;
- //  	letter-spacing: 0.1214em;  
- //  	margin: 0 auto; 
+	background-color: $tableTitleBg;
+	color: $white;
+	padding-top: 1em;
+  	padding-bottom: 1em;
+  	padding-left: 1em;
+  	text-transform: uppercase;
+  	@include latoLight;
+  	text-align: left;
+  	letter-spacing: 0.1214em;  
+  	margin: 0 auto; 
  }
 
 #mobileMenu.onmenu{
